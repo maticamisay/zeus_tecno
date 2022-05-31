@@ -12,7 +12,7 @@ const Header = () => {
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
         <Nav.Link href="#home">Inicio</Nav.Link>
-        <Nav.Link href="#link">Sobre Nosotros</Nav.Link>
+        <Nav.Link href="#about">Sobre Nosotros</Nav.Link>
         <NavDropdown title="Servicios" id="basic-nav-dropdown">
           <NavDropdown.Item href="#action/3.1">Diseño Ux Ui</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.2">Desarrollo Web</NavDropdown.Item>

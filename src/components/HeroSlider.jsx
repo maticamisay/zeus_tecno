@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Button } from "react-bootstrap";
 import Slider from "react-slick";
 import imagen from "../assets/carousel1.jpg";
 // import imagen2 from "../assets/carousel2.jpg";
