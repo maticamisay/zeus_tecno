@@ -1,0 +1,37 @@
+.slider_img {
+  background-image: url(https://i.ibb.co/0QLHGdt/carousel2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 92vh;
+  width: 100%;
+}
+.slider_opacity{
+    position:absolute;
+    top: 0;
+    right: 0;
+    bottom: 15vh;
+    left: 0;
+    background-color: black;
+    opacity: .2;
+}
+.slider_center {
+    z-index: 1;
+  position: relative;
+  bottom: 30rem;
+  color: white;
+  text-align: center;
+}
+.slider_button {
+  border-radius: 1rem;
+  border: 1px solid white;
+  padding: 0.5rem;
+  margin: .5rem;
+  text-transform: capitalize;
+  transition: border, background-color, color;
+  transition-duration: 0.3s;
+
+}
+.slider_button:hover {
+  background-color: transparent;
+  color: white;
+}
