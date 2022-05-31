@@ -5,31 +5,34 @@
   height: 92vh;
   width: 100%;
 }
-.slider_opacity{
-    position:absolute;
-    top: 0;
-    right: 0;
-    bottom: 15vh;
-    left: 0;
-    background-color: black;
-    opacity: .2;
+.slider_opacity {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 15vh;
+  left: 0;
+  background-color: black;
+  opacity: 0.2;
 }
 .slider_center {
-    z-index: 1;
+  z-index: 1;
   position: relative;
   bottom: 30rem;
   color: white;
   text-align: center;
 }
+.slider_center {
+  width:70%;
+}
 .slider_button {
   border-radius: 1rem;
   border: 1px solid white;
-  padding: 0.5rem;
-  margin: .5rem;
+  padding: .8rem;
+  margin: 0.5rem;
   text-transform: capitalize;
   transition: border, background-color, color;
   transition-duration: 0.3s;
-
+  width: fit-content;
 }
 .slider_button:hover {
   background-color: transparent;

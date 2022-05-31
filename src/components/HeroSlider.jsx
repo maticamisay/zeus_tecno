@@ -22,7 +22,7 @@ export default class SimpleSlider extends Component {
         <div>
           <div className="slider_img"></div>
           <div className="slider_opacity"></div>
-          <div className="slider_center">
+          <div className="slider_center d-flex row justify-content-center m-auto text-wrap">
             <h2>Lorem ipsum dolor sit amet consectetur.</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
@@ -34,11 +34,9 @@ export default class SimpleSlider extends Component {
         <div>
           <div className="slider_img"></div>
           <div className="slider_opacity"></div>
-          <div className="slider_center">
+          <div className="slider_center d-flex row justify-content-center m-auto text-wrap">
             <h2>Lorem ipsum dolor sit.</h2>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing.
-            </p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
             <button className="slider_button">Clientes</button>
             <button className="slider_button">Reseñas</button>
           </div>
